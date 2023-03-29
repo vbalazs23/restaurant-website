@@ -638,6 +638,9 @@ footer {
 }
 
 @media (max-width: 767px) {
+    body {
+        font-size: 0.65em;
+    }
     .order {
         margin: 2em 0 2em 4em;
         font-size: 1.25em;
