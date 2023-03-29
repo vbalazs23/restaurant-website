@@ -599,7 +599,7 @@ footer {
 
 @media (max-width: 991px) {
     body {
-        font-size: 0.65em;
+        font-size: 0.75em;
     }
     
     .navbar-nav .nav-link{
@@ -638,20 +638,11 @@ footer {
 }
 
 @media (max-width: 767px) {
-    body {
-        font-size: 0.45em;
-    }
     .order {
-        margin: 2em 0 2em 7em;
+        margin: 2em 0 2em 4em;
         font-size: 1.25em;
     }
-    /* .order .phone {
-        color: whitesmoke;
-        text-decoration: none;
-        font-weight: 800;
-        border: whitesmoke 2px solid;
-        padding: 0.5em 1em;
-    } */
+    
     .hero .left {
         height: 30em;
     }
