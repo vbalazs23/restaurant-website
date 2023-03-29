@@ -1,0 +1,119 @@
+<section data-aos="fade-right" data-aos-duration="1200" data-aos-once="true" class="container-fluid menu">
+<div class="row header">
+    <div class="col-md-3 offset-md-1"><h1>ÉTLAP</h1></div>
+</div>
+<div class="row">
+    <div class="col-xs-10 col-md-3 offset-md-1 tabs-sidebar">
+        <button class="tabs-button active" data-for-tab="1">HAMBURGER</button>
+        <button class="tabs-button" data-for-tab="2">TÁLAK</button>
+        <button class="tabs-button" data-for-tab="3">SALÁTÁK</button>
+        <button class="tabs-button" data-for-tab="4">SÜLTES TÁL</button>
+        <button class="tabs-button" data-for-tab="5">PIZZA</button>
+        <button class="tabs-button" data-for-tab="6">ÓRIÁS MELEGSZENDVICS</button>
+        <button class="tabs-button" data-for-tab="7">BOXOK</button>
+        <button class="tabs-button" data-for-tab="8">TORTILLA WRAPS</button>
+        <button class="tabs-button" data-for-tab="9">DESSZERTEK</button>
+    </div>
+    <div class="col-xs-10 col-md-6 tab-container">
+        <div class="tab-content active" data-tab="1">
+            <% for(let food of hamburger) { %> 
+            <div class="food-container">
+                <h4><%= food.name.toUpperCase() %> </h4><span><%= food.price %> Ft</span>
+                <p><%= food.description %> </p>
+            </div>
+        <% } %>
+        <div class="food-container extra">
+            <h2>MENÜ</h2><span>+600 Ft</span>
+        </div>
+        <div class="col-md-6 hamburger-extra">
+            <h1>EXTRÁK</h1>
+            <p>+zöldség <span class="d-inline-block">150 FT</span><br>
+            +hús <span class="d-inline-block">350 FT</span></p>
+        </div>    
+        </div>
+        <div class="tab-content" data-tab="2">
+            <% for(let food of talak) { %> 
+            <div class="food-container">
+                <h4><%= food.name.toUpperCase() %> </h4><span><%= food.price %> Ft</span>
+                <p><%= food.description %> </p>
+            </div>
+        <% } %>
+        <div class="col-md-10 extra-dip">
+            <h1>ÖNTETEK</h1>
+            <p>kapros / csípős / fokhagymás / cézár / sajtszósz</p>
+        </div>    
+        </div>
+        <div class="tab-content" data-tab="3">
+            <% for(let food of salatak) { %> 
+            <div class="food-container">
+                <h4><%= food.name.toUpperCase() %> </h4><span><%= food.price %> Ft</span>
+                <p><%= food.description %> </p>
+            </div>
+        <% } %>    
+        </div>
+        <div class="tab-content" data-tab="4">
+            <% for(let food of sultes) { %> 
+            <div class="food-container">
+                <h4><%= food.name.toUpperCase() %> </h4><span><%= food.price %> Ft</span>
+                <p><%= food.description %> </p>
+            </div>
+        <% } %>    
+        </div>
+        <div class="tab-content" data-tab="5">
+            <div class="row">
+            <div class="col-md-8 mb-4">
+                <h3 id="pizza-size-header">MÉRET</h3>
+            </div>
+            <div class="col-md-4 pizza-prices text-center">
+                <span id="pizza-size-chart-1">32 CM</span><span class="ms-5" id="pizza-size-chart-2">50 CM</span>
+            </div>
+            <% for(let food of pizza) { %> 
+                <div class="col-md-8 mb-4">
+            <div class="food-container">
+                <h4><%= food.name.toUpperCase() %> </h4>
+                <p><%= food.description %> </p>
+            </div>
+        </div>
+        <div class="col-md-4 pizza-prices text-center"><span><%= food.priceA %> Ft</span><span class="ms-5"><%= food.priceB %> Ft</span></div>
+        <% } %>
+    
+    
+    </div>    
+    </div>
+    <div class="tab-content" data-tab="6">
+        <% for(let food of melegszenya) { %> 
+        <div class="food-container">
+            <h4><%= food.name.toUpperCase() %> </h4><span><%= food.price %> Ft</span>
+            <p><%= food.description %> </p>
+        </div>
+    <% } %>
+    <div class="food-container extra">
+        <h2>MENÜ</h2><span>+600 Ft</span>
+    </div>    
+    </div>
+    <div class="tab-content" data-tab="7">
+        <% for(let food of boxok) { %> 
+        <div class="food-container">
+            <h4><%= food.name.toUpperCase() %> </h4><span><%= food.price %> Ft</span>
+            <p><%= food.description %> </p>
+        </div>
+    <% } %>    
+    </div>
+    <div class="tab-content" data-tab="8">
+        <% for(let food of wraps) { %> 
+        <div class="food-container">
+            <h4><%= food.name.toUpperCase() %> </h4><span><%= food.price %> Ft</span>
+            <p><%= food.description %> </p>
+        </div>
+    <% } %>    
+    </div>
+    <div class="tab-content" data-tab="9">
+        <% for(let food of desszertek) { %> 
+        <div class="food-container">
+            <h4><%= food.name.toUpperCase() %> </h4><span><%= food.price %> Ft</span>
+            <p><%= food.description %> </p>
+        </div>
+    <% } %>    
+    </div>
+</div>
+</section>

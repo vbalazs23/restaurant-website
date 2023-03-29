@@ -1,0 +1,330 @@
+{
+    "hamburger": [
+        {
+            "name": "Sima",
+            "description": "(alapszósz, kígyóubi, csemegeubi, saláta, káposzta, hagyma, paradicsom, marhahús, szósz)",
+            "price": 970
+        },
+        {
+            "name": "Sajtos",
+            "description": "(alapszósz, kígyóubi, csemegeubi, saláta, káposzta, hagyma, paradicsom, marhahús, szósz, sajt)",
+            "price": 1050
+        },
+        {
+            "name": "Hungarikum",
+            "description": "(alapszósz, csemegeubi, szalámi, jalapeno, pirított hagyma, marhahús, sajt)",
+            "price": 1230
+        },
+        {
+            "name": "Kukoricás",
+            "description": "(alapszósz, csemegeubi, kukorica, káposzta, marhahús, sajt)",
+            "price": 1130
+        },
+        {
+            "name": "Gombás",
+            "description": "(alapszósz, kígyóubi, csemegeubi, káposzta, pirított gomba, sonka, marhahús, szósz)",
+            "price": 1130
+        },
+        {
+            "name": "Négysajtos",
+            "description": "(alapszósz, jégsali, lilahagyma, paradicsom, 120 g marhahús, trappista sajt, cheddar sajt, camembert sajt, fűszeres grillsajt)",
+            "price": 1390
+        },
+        {
+            "name": "Főnix",
+            "description": "(alapszósz, jégsali, paradicsom, pirított hagyma, dupla sajt, dupla marhahús, BBQ szósz)",
+            "price": 1530
+        },
+        {
+            "name": "Vega",
+            "description": "(alapszósz, jégsali, hagyma, paradicsom, kukorica, uborka, rántott sajt, sajt)",
+            "price": 990
+        },
+        {
+            "name": "Bacon",
+            "description": "(alapszósz, csemegeubi, jégsali, cheddar sajt, sült bacon, 120 g marhahús, mustáros szósz)",
+            "price": 1220
+        },
+        {
+            "name": "Gyerek hambi",
+            "description": "(alapszósz, csemegeubi, 120 g marhahús, sajt, ketchup)",
+            "price": 970
+        }
+    ],
+
+    "talak": [
+        {
+            "name": "Rántott gomba tál",
+            "description": "(sült burgonya, rántott gomba, tartár)",
+            "price": 1590
+        },
+        {
+            "name": "Rántott sajt tál",
+            "description": "(sült burgonya, rántott sajt, tartár)",
+            "price": 1690
+        },
+        {
+            "name": "Rántott karfiol tál",
+            "description": "(sült burgonya, rántott karfiol, tartár)",
+            "price": 1590
+        },
+        {
+            "name": "Rántott csirkemell tál",
+            "description": "(sült burgonya, rántott csirkemell, ketchup)",
+            "price": 1720
+        },
+        {
+            "name": "Egészség tál",
+            "description": "(roston sült csirkemell, friss kevert sali, választható öntet)",
+            "price": 1550
+        },
+        {
+            "name": "Gyros tál",
+            "description": "(választható sali, gyros hús, sült burgonya, öntet)",
+            "price": 1750
+        },
+        {
+            "name": "Dupla húsos gyros tál",
+            "description": "(választható sali, dupla gyros hús, sült burgonya, öntet)",
+            "price": 1990
+        },
+        {
+            "name": "Gyros pita",
+            "description": "(gyros hús, választható sali, választható öntet)",
+            "price": 1100
+        },
+        {
+            "name": "Dupla húsos gyros pita",
+            "description": "(dupla gyros hús, választható sali, választható öntet)",
+            "price": 1380
+        }
+    ],
+
+    "salatak": [
+        {
+            "name": "Friss saláta",
+            "description": "(jégsali, paradicsom, lilahagyma, csemegeubi, káposzta, kukorica)",
+            "price": 890
+        },
+        {
+            "name": "Tzatziki sali",
+            "description": "(kígyóubi, tejfölös-fokhagymás szósz)",
+            "price": 690
+        },
+        {
+            "name": "Görög sali",
+            "description": "(paradicsom, lilahagyma, kígyóubi, olivabogyó, oregánó)",
+            "price": 890
+        },
+        {
+            "name": "Kukorica sali",
+            "description": "(kukorica, tejfölös-majonézes szósz)",
+            "price": 690
+        }
+    ],
+
+    "sultes": [
+        {
+            "name": "KEDVENC TÁL (2-3 személy)",
+            "description": "(rántott csirkemell 2 db, cordon bleu 2 db, rántott sajt 3 db, rántott gomba 6 db, sült burgonya, párolt kukoricás rizs)",
+            "price": 4890
+        },
+        {
+            "name": "FŐNIX TÁL (2-3 személy)",
+            "description": "(cigánypecsenye 2 db, baconbe göngyölt csirkemell 2 db, mustárpácos tarja 2 db, cornflakes csirkefalatok 7 db, burgonyapüré, párolt kukoricás rizs)",
+            "price": 5890
+        },
+        {
+            "name": "VEGA TÁL (2-3 személy)",
+            "description": "(rántott sajt 3 db, rántott gomba 9 db, rántott karfiol 10 db, párolt kukoricás rizs, sült burgonya)",
+            "price": 4990
+        }
+    ],
+
+    "pizza": [
+        {
+            "name": "Sajtos sonkás",
+            "description": "(pizzaszósz, sonka, sajt)",
+            "priceA": 1850,
+            "priceB": 3950
+        },
+        {
+            "name": "Kukoricás",
+            "description": "(pizzaszósz, sonka, kukorica, sajt)",
+            "priceA": 1900,
+            "priceB": 4000
+        },
+        {
+            "name": "Szalámis",
+            "description": "(pizzaszósz, szalámi, sajt)",
+            "priceA": 1950,
+            "priceB": 4050
+        },
+        {
+            "name": "Magyaros",
+            "description": "(pizzaszósz, szalámi, hagyma, jalapeno, sajt, bacon)",
+            "priceA": 2100,
+            "priceB": 4350
+        },
+        {
+            "name": "Főnix",
+            "description": "(pizzaszósz, sonka, csemegeubi, szalámi, jalapeno, kukorica, paradicsom, bacon, sajt)",
+            "priceA": 2350,
+            "priceB": 4490
+        },
+        {
+            "name": "3 Kívánság",
+            "description": "(pizzaszósz, sajt, kívánság, kívánság, kívánság)",
+            "priceA": 1990,
+            "priceB": 4150
+        },
+        {
+            "name": "Görög",
+            "description": "(pizzaszósz, gyros hús, kígyóubi, hagyma, paprika mix, olivabogyó, paradicsom, sajt)",
+            "priceA": 2150,
+            "priceB": 4430
+        },
+        {
+            "name": "4 Sajtos",
+            "description": "(pizzaszósz, trappista sajt, füstölt sajt, mozzarella, parmezán sajt)",
+            "priceA": 2150,
+            "priceB": 4430
+        },
+        {
+            "name": "Gombás",
+            "description": "(pizzaszósz, sonka, gomba, sajt)",
+            "priceA": 1950,
+            "priceB": 4050
+        },
+        {
+            "name": "Tenger gyümölcsei",
+            "description": "(pizzaszósz, tenger gyümölcsei, sajt)",
+            "priceA": 2100,
+            "priceB": 4350
+        },
+        {
+            "name": "Margaréta",
+            "description": "(pizzaszósz, sajt, oregánó)",
+            "priceA": 1790,
+            "priceB": 3790
+        },
+        {
+            "name": "Hamm Pizza",
+            "description": "(pizzaszósz, hamburger hús, lilahagyma, csemegeubi, paradicsom, kukorica, sajt)",
+            "priceA": 2100,
+            "priceB": 4350
+        },
+        {
+            "name": "Vega",
+            "description": "(pizzaszósz, gomba, kukorica, kígyóubi, paradicsom, hagyma, sajt)",
+            "priceA": 1990,
+            "priceB": 4150
+        },
+        {
+            "name": "Olivás",
+            "description": "(tejfölös - fokhagymás alap, szalámi, olivabogyó, sajt)",
+            "priceA": 2100,
+            "priceB": 4350
+        },
+        {
+            "name": "Gyros pizza",
+            "description": "(tejfölös - fokhagymás alap, gyros hús, kígyóubi, lilahagyma, sajt)",
+            "priceA": 2350,
+            "priceB": 4490
+        },
+        {
+            "name": "Hawaii",
+            "description": "(pizzaszósz, sonka, ananász)",
+            "priceA": 2080,
+            "priceB": 4200
+        },
+        {
+            "name": "Manhattan",
+            "description": "(tejfölös - fokhagymás alap, sonka, sajt, csemegeubi)",
+            "priceA": 1950,
+            "priceB": 4050
+        }
+    ],
+
+    "melegszenya": [
+        {
+            "name": "Sajtos-sonkás",
+            "description": "(vajkrém, sajt, sonka)",
+            "price": 950
+        },
+        {
+            "name": "Kukoricás",
+            "description": "(vajkrém, sonka, kukorica, sajt)",
+            "price": 990
+        },
+        {
+            "name": "Szalámis",
+            "description": "(vajkrém, szalámi, csemegeubi, sajt)",
+            "price": 990
+        },
+        {
+            "name": "Magyaros",
+            "description": "(vajkrém, szalámi, lilahagyma, jalapeno, sajt)",
+            "price": 1050
+        },
+        {
+            "name": "Retró",
+            "description": "(vajkrém, sonka, szalámi, csemegeubi, sajt, Piros Arany)",
+            "price": 1100
+        },
+        {
+            "name": "Görög",
+            "description": "(vajkrém, kígyóubi, paradicsom, lilahagyma, gyros hús, sajt, fokhagymás szósz)",
+            "price": 1150
+        }
+    ],
+
+    "boxok": [
+        {
+            "name": "Chicken Box",
+            "description": "(7 db cornflakes csirkefalat, 1 adag sült burgonya vagy saláta, 1 adag sajtszósz vagy öntet)",
+            "price": 1580
+        },
+        {
+            "name": "Gyros box",
+            "description": "(friss kevert sali, gyros hús, választható öntet)",
+            "price": 1580
+        }
+    ],
+
+    "wraps": [
+        {
+            "name": "Wraps XXL",
+            "description": "(friss kevert saláta, majonézes öntet, cornflakes csirkefalatok)",
+            "price": 1450
+        },
+        {
+            "name": "Gyros Wraps",
+            "description": "(friss kevert sali, gyros hús, BBQ szósz)",
+            "price": 1480
+        }
+    ],
+
+    "desszertek": [
+        {
+            "name": "KAKAÓS PALACSINTA",
+            "description": "2db",
+            "price": 350
+        },
+        {
+            "name": "LEKVÁROS PALACSINTA",
+            "description": "2db",
+            "price": 350
+        },
+        {
+            "name": "FAHÉJAS PALACSINTA",
+            "description": "2db",
+            "price": 350
+        },
+        {
+            "name": "NUTELLÁS PALACSINTA",
+            "description": "2db",
+            "price": 450
+        }
+    ]
+}
