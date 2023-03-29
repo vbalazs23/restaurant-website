@@ -1,5 +1,5 @@
 # restaurant-website
-### [See it hosted here](https://pizza-restaurant-website.onrender.com)
+### [See it hosted here](https://pizza-restaurant-website.onrender.com) (Might take a while to load because it uses the free tier on Render)
 ### About this project:
 - This is a slightly modified version of an actual website that I coded for a local restaurant. There was no design specified by the owner so 
 I had to "come up with something cool".<br>
